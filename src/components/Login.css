@@ -1,0 +1,17 @@
+.dd{
+background-image: url("../assets/trees.jpg");
+} 
+.dx{
+    background-image: url("../assets/hhh.jpeg");   
+}
+
+.compact-nav{
+    transition: width .4s;
+}
+.groupa{
+    transition: transform 0.1s ease, z-10 0.1s ease;
+}
+:hover .groupa {
+    transform: scale(1.1); /* Enlarge the card on hover */
+    z-index: 1; /* Bring the hovered card to the front */
+  }
